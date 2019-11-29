@@ -5,7 +5,7 @@ body{
 
 .upper-container{
   background-color: #4b4946;
-  height: 8% ;
+  height: 10% ;
   width: 100%;
   display: flex;
   margin-bottom: 1%;
@@ -16,6 +16,7 @@ body{
   padding-top: .75%;
   padding-bottom: .75%;
   margin: 0;
+  display: inline-flex;
 }
 
 .top-name{
@@ -23,29 +24,33 @@ body{
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 0 1em;
+  border-left: 5px solid rgb(138, 211, 230);
+  border-right: 5px solid rgb(138, 211, 230);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
 }
 
 .upper-right-block{
   width: 50%;
-  padding-top: 0.75%;
-  padding-bottom: 0.75%;
   position: absolute;
   right: 0;
   display: flex;
 }
 
 .top-links{
-color: white;
-font-size: 1em;
-font-family: 'Montserrat', sans-serif;
-margin: 0;
-width: 25%;
+  color: white;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 25%;
+  padding-top: 1%;
 }
 
 .toplinkactual{
   color:white;
-  text-decoration: underline;
-  text-decoration-color: rgb(138, 211, 230);
+  text-decoration: none;
+  box-shadow: 0 5px 0 rgb(138, 211, 230);
 }
 
 .lower-container{
@@ -53,7 +58,6 @@ width: 25%;
   height: 80%;
   display: flex;
   background-color: #919494;
-
 }
 
 .lower-side-block {
